@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "SchnellerfassungShared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SchnellerfassungShared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchnellerfassungShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchnellerfassungShared/1.0.0": {
+      "type": "project",
+      "path": "../SchnellerfassungShared/SchnellerfassungShared.csproj",
+      "msbuildProject": "../SchnellerfassungShared/SchnellerfassungShared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "SchnellerfassungShared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Eduard\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Eduard\\Desktop\\Development\\Entwicklung\\Schnellerfassung\\Schnellerfassung\\Schnellerfassung.csproj",
+      "projectName": "Schnellerfassung",
+      "projectPath": "C:\\Users\\Eduard\\Desktop\\Development\\Entwicklung\\Schnellerfassung\\Schnellerfassung\\Schnellerfassung.csproj",
+      "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eduard\\Desktop\\Development\\Entwicklung\\Schnellerfassung\\Schnellerfassung\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Eduard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Eduard\\Desktop\\Development\\Entwicklung\\Schnellerfassung\\SchnellerfassungShared\\SchnellerfassungShared.csproj": {
+              "projectPath": "C:\\Users\\Eduard\\Desktop\\Development\\Entwicklung\\Schnellerfassung\\SchnellerfassungShared\\SchnellerfassungShared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
