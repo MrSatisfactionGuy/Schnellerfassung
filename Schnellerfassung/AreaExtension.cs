@@ -10,9 +10,9 @@ namespace Schnellerfassung
             return new AreaDTO { Name = area.Name, Nummernkreis = area.Nummernkreis };
         }
 
-        public static void ToViewObject(AreaDTO dto)
+        public static AreaViewObject ToViewObject(AreaDTO dto)
         {
-            return new AreaViewObject { dto };
+            return new AreaViewObject {  };
         }
     }
 }
